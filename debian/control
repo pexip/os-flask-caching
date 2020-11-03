@@ -1,0 +1,30 @@
+Source: flask-caching
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Jonathan Carter <jcc@debian.org>,
+           Jelmer Vernooĳ <jelmer@debian.org>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-flask,
+               python3-nose,
+               python3-setuptools,
+	       python3-pytest
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Homepage: https://github.com/sh4nks/flask-caching/
+Vcs-Git: https://salsa.debian.org/python-team/packages/python3-flask-caching.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python3-flask-caching
+
+Package: python3-flask-caching
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Provides: ${python3:Provides}
+Description: Cache support for flask applications
+ Flask extension that provides smart caching support.
+ .
+ This is a fork of python3-flask-cache that is still maintained,
+ which maintains a high level of backward compatibility and new
+ features.
+

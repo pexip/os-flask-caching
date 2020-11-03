@@ -1,0 +1,28 @@
+flask-caching (1.9.0-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Jonathan Carter ]
+  * New upstream release
+  * Update standards version to 4.5.0
+  * Update debhelper-compat to level 13
+  * Update copyright years
+  * Add watch file
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 03 Nov 2020 14:21:50 +0200
+
+flask-caching (1.8.0-2) unstable; urgency=medium
+
+  * Initial source-only upload
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 10 Jan 2020 19:10:13 +0200
+
+flask-caching (1.8.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #946043)
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 03 Dec 2019 11:37:28 +0200
