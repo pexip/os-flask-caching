@@ -1,10 +1,11 @@
 Source: flask-caching
 Section: python
 Priority: optional
-Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Uploaders: Jonathan Carter <jcc@debian.org>,
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+XSBC-Pexip-Original-Uploaders: Jonathan Carter <jcc@debian.org>,
            Jelmer Vernooĳ <jelmer@debian.org>
-Build-Depends: debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 12),
                dh-python,
                python3-all,
                python3-flask,
@@ -16,6 +17,7 @@ Rules-Requires-Root: no
 Homepage: https://github.com/sh4nks/flask-caching/
 Vcs-Git: https://salsa.debian.org/python-team/packages/python3-flask-caching.git
 Vcs-Browser: https://salsa.debian.org/python-team/packages/python3-flask-caching
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ bullseye
 
 Package: python3-flask-caching
 Architecture: all
